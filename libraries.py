@@ -32,3 +32,15 @@ data = response.json()
 
 # Print a key piece of information
 print("Random Cat Fact:", data['fact'])
+
+#Plot a simple line graph using matplotlib (e.g., a list of numbers).
+import matplotlib.pyplot as plt 
+
+x = [5,6,7,8,9,10]
+y = [40,45,50,60,70,80]
+
+plt.plot(x,y)
+plt.title("Simple Line Graph")
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.show()
